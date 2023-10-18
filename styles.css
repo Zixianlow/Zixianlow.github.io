@@ -2389,17 +2389,16 @@ html {
   }
   
   .hero-wrapper {
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding-left: 209px;
     display: flex;
   }
   
   .hero-split {
     max-width: 46%;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     display: flex;
   }
   
@@ -2938,9 +2937,7 @@ html {
   
   .footer-form-block-two {
     justify-content: flex-end;
-    align-items: center;
     display: flex;
-    position: relative;
   }
   
   .footer-form-input {
@@ -2991,7 +2988,7 @@ html {
     margin-left: 0;
     display: flex;
   }
-  
+
   .footer-social-link-three {
     margin-left: 32px;
   }
@@ -3480,7 +3477,6 @@ html {
   
     .footer-form-block-two {
       width: 100%;
-      margin-top: 20px;
     }
   
     .footer-form-input {
